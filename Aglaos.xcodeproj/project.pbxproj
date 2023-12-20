@@ -8,17 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		FC14C9D42740936000F3F30A /* AglaosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14C9D32740936000F3F30A /* AglaosApp.swift */; };
-		FC14C9D62740936000F3F30A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14C9D52740936000F3F30A /* ContentView.swift */; };
+		FC14C9D62740936000F3F30A /* FeedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14C9D52740936000F3F30A /* FeedList.swift */; };
 		FC14C9D82740936500F3F30A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC14C9D72740936500F3F30A /* Assets.xcassets */; };
 		FC14C9DB2740936500F3F30A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC14C9DA2740936500F3F30A /* Preview Assets.xcassets */; };
+		FC14C9E52740948E00F3F30A /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = FC14C9E42740948E00F3F30A /* FacebookCore */; };
+		FC14C9E72740948E00F3F30A /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = FC14C9E62740948E00F3F30A /* FacebookLogin */; };
+		FC14C9EA27409A4300F3F30A /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = FC14C9E927409A4300F3F30A /* Swifter */; };
+		FC14C9ED27409C5A00F3F30A /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = FC14C9EC27409C5A00F3F30A /* FeedKit */; };
+		FC14C9EF2740AA6D00F3F30A /* AddFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14C9EE2740AA6C00F3F30A /* AddFilterView.swift */; };
+		FC14C9F12740AD9700F3F30A /* SieveList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14C9F02740AD9700F3F30A /* SieveList.swift */; };
+		FC14C9F32740B07E00F3F30A /* AddSieveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14C9F22740B07E00F3F30A /* AddSieveView.swift */; };
+		FC14C9F52740B15A00F3F30A /* RSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14C9F42740B15900F3F30A /* RSS.swift */; };
+		FC14C9F72740B17100F3F30A /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14C9F62740B17100F3F30A /* Filter.swift */; };
+		FC14C9F92740B18600F3F30A /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14C9F82740B18600F3F30A /* Closures.swift */; };
+		FC14C9FB2740B19800F3F30A /* Sieve.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14C9FA2740B19800F3F30A /* Sieve.swift */; };
+		FC14C9FD2740B1AF00F3F30A /* SieveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14C9FC2740B1AF00F3F30A /* SieveView.swift */; };
+		FC14C9FF2740B50000F3F30A /* AddSourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14C9FE2740B50000F3F30A /* AddSourceView.swift */; };
+		FC14CA012740BBB900F3F30A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14CA002740BBB800F3F30A /* Post.swift */; };
+		FC14CA032740BF8600F3F30A /* FeedKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14CA022740BF8600F3F30A /* FeedKit+Extensions.swift */; };
+		FC14CA052740BFBC00F3F30A /* SimplePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14CA042740BFBC00F3F30A /* SimplePost.swift */; };
+		FC14CA072740C1CB00F3F30A /* RSSFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14CA062740C1CB00F3F30A /* RSSFeed.swift */; };
+		FC14CA0A2740C2FA00F3F30A /* StringError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14CA092740C2FA00F3F30A /* StringError.swift */; };
+		FC14CA0D2740C32E00F3F30A /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14CA0C2740C32E00F3F30A /* Feed.swift */; };
+		FC14CA112740C49300F3F30A /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14CA102740C49300F3F30A /* PostRow.swift */; };
+		FC14CA152740D82400F3F30A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14CA142740D82300F3F30A /* SearchView.swift */; };
+		FC14CA172740D85300F3F30A /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14CA162740D85300F3F30A /* SearchBar.swift */; };
+		FC14CA192740DB1800F3F30A /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14CA182740DB1700F3F30A /* Webview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC14C9D02740936000F3F30A /* Aglaos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aglaos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC14C9D32740936000F3F30A /* AglaosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AglaosApp.swift; sourceTree = "<group>"; };
-		FC14C9D52740936000F3F30A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC14C9D52740936000F3F30A /* FeedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedList.swift; sourceTree = "<group>"; };
 		FC14C9D72740936500F3F30A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC14C9DA2740936500F3F30A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC14C9EE2740AA6C00F3F30A /* AddFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFilterView.swift; sourceTree = "<group>"; };
+		FC14C9F02740AD9700F3F30A /* SieveList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SieveList.swift; sourceTree = "<group>"; };
+		FC14C9F22740B07E00F3F30A /* AddSieveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSieveView.swift; sourceTree = "<group>"; };
+		FC14C9F42740B15900F3F30A /* RSS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSS.swift; sourceTree = "<group>"; };
+		FC14C9F62740B17100F3F30A /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		FC14C9F82740B18600F3F30A /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		FC14C9FA2740B19800F3F30A /* Sieve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sieve.swift; sourceTree = "<group>"; };
+		FC14C9FC2740B1AF00F3F30A /* SieveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SieveView.swift; sourceTree = "<group>"; };
+		FC14C9FE2740B50000F3F30A /* AddSourceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSourceView.swift; sourceTree = "<group>"; };
+		FC14CA002740BBB800F3F30A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FC14CA022740BF8600F3F30A /* FeedKit+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedKit+Extensions.swift"; sourceTree = "<group>"; };
+		FC14CA042740BFBC00F3F30A /* SimplePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePost.swift; sourceTree = "<group>"; };
+		FC14CA062740C1CB00F3F30A /* RSSFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeed.swift; sourceTree = "<group>"; };
+		FC14CA092740C2FA00F3F30A /* StringError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringError.swift; sourceTree = "<group>"; };
+		FC14CA0C2740C32E00F3F30A /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		FC14CA102740C49300F3F30A /* PostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRow.swift; sourceTree = "<group>"; };
+		FC14CA142740D82300F3F30A /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		FC14CA162740D85300F3F30A /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FC14CA182740DB1700F3F30A /* Webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC14C9EA27409A4300F3F30A /* Swifter in Frameworks */,
+				FC14C9E72740948E00F3F30A /* FacebookLogin in Frameworks */,
+				FC14C9E52740948E00F3F30A /* FacebookCore in Frameworks */,
+				FC14C9ED27409C5A00F3F30A /* FeedKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				FC14C9D32740936000F3F30A /* AglaosApp.swift */,
-				FC14C9D52740936000F3F30A /* ContentView.swift */,
+				FC14CA082740C2E600F3F30A /* Screens */,
+				FC14CA0B2740C31400F3F30A /* Model */,
+				FC14CA0F2740C37600F3F30A /* Helpers */,
 				FC14C9D72740936500F3F30A /* Assets.xcassets */,
 				FC14C9D92740936500F3F30A /* Preview Content */,
 			);
@@ -65,6 +113,55 @@
 				FC14C9DA2740936500F3F30A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC14CA082740C2E600F3F30A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FC14CA182740DB1700F3F30A /* Webview.swift */,
+				FC14C9D52740936000F3F30A /* FeedList.swift */,
+				FC14CA102740C49300F3F30A /* PostRow.swift */,
+				FC14C9FC2740B1AF00F3F30A /* SieveView.swift */,
+				FC14CA142740D82300F3F30A /* SearchView.swift */,
+				FC14CA162740D85300F3F30A /* SearchBar.swift */,
+				FC14C9F02740AD9700F3F30A /* SieveList.swift */,
+				FC14C9F22740B07E00F3F30A /* AddSieveView.swift */,
+				FC14C9EE2740AA6C00F3F30A /* AddFilterView.swift */,
+				FC14C9FE2740B50000F3F30A /* AddSourceView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FC14CA0B2740C31400F3F30A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC14C9FA2740B19800F3F30A /* Sieve.swift */,
+				FC14C9F62740B17100F3F30A /* Filter.swift */,
+				FC14CA002740BBB800F3F30A /* Post.swift */,
+				FC14CA0C2740C32E00F3F30A /* Feed.swift */,
+				FC14CA042740BFBC00F3F30A /* SimplePost.swift */,
+				FC14CA0E2740C35300F3F30A /* RSS */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC14CA0E2740C35300F3F30A /* RSS */ = {
+			isa = PBXGroup;
+			children = (
+				FC14C9F42740B15900F3F30A /* RSS.swift */,
+				FC14CA062740C1CB00F3F30A /* RSSFeed.swift */,
+				FC14CA022740BF8600F3F30A /* FeedKit+Extensions.swift */,
+			);
+			path = RSS;
+			sourceTree = "<group>";
+		};
+		FC14CA0F2740C37600F3F30A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FC14C9F82740B18600F3F30A /* Closures.swift */,
+				FC14CA092740C2FA00F3F30A /* StringError.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +180,12 @@
 			dependencies = (
 			);
 			name = Aglaos;
+			packageProductDependencies = (
+				FC14C9E42740948E00F3F30A /* FacebookCore */,
+				FC14C9E62740948E00F3F30A /* FacebookLogin */,
+				FC14C9E927409A4300F3F30A /* Swifter */,
+				FC14C9EC27409C5A00F3F30A /* FeedKit */,
+			);
 			productName = Aglaos;
 			productReference = FC14C9D02740936000F3F30A /* Aglaos.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +214,11 @@
 				Base,
 			);
 			mainGroup = FC14C9C72740936000F3F30A;
+			packageReferences = (
+				FC14C9E32740948E00F3F30A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				FC14C9E827409A4300F3F30A /* XCRemoteSwiftPackageReference "Swifter" */,
+				FC14C9EB27409C5A00F3F30A /* XCRemoteSwiftPackageReference "FeedKit" */,
+			);
 			productRefGroup = FC14C9D12740936000F3F30A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +245,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC14C9D62740936000F3F30A /* ContentView.swift in Sources */,
+				FC14CA152740D82400F3F30A /* SearchView.swift in Sources */,
+				FC14C9EF2740AA6D00F3F30A /* AddFilterView.swift in Sources */,
+				FC14C9F12740AD9700F3F30A /* SieveList.swift in Sources */,
+				FC14C9FB2740B19800F3F30A /* Sieve.swift in Sources */,
+				FC14CA072740C1CB00F3F30A /* RSSFeed.swift in Sources */,
+				FC14CA012740BBB900F3F30A /* Post.swift in Sources */,
+				FC14CA052740BFBC00F3F30A /* SimplePost.swift in Sources */,
+				FC14C9F92740B18600F3F30A /* Closures.swift in Sources */,
+				FC14C9F52740B15A00F3F30A /* RSS.swift in Sources */,
+				FC14CA0D2740C32E00F3F30A /* Feed.swift in Sources */,
+				FC14C9D62740936000F3F30A /* FeedList.swift in Sources */,
+				FC14C9FF2740B50000F3F30A /* AddSourceView.swift in Sources */,
+				FC14CA192740DB1800F3F30A /* Webview.swift in Sources */,
+				FC14C9FD2740B1AF00F3F30A /* SieveView.swift in Sources */,
+				FC14C9F32740B07E00F3F30A /* AddSieveView.swift in Sources */,
+				FC14CA172740D85300F3F30A /* SearchBar.swift in Sources */,
+				FC14C9F72740B17100F3F30A /* Filter.swift in Sources */,
+				FC14CA0A2740C2FA00F3F30A /* StringError.swift in Sources */,
+				FC14CA032740BF8600F3F30A /* FeedKit+Extensions.swift in Sources */,
+				FC14CA112740C49300F3F30A /* PostRow.swift in Sources */,
 				FC14C9D42740936000F3F30A /* AglaosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +468,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC14C9E32740948E00F3F30A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		FC14C9E827409A4300F3F30A /* XCRemoteSwiftPackageReference "Swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mattdonnelly/Swifter";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		FC14C9EB27409C5A00F3F30A /* XCRemoteSwiftPackageReference "FeedKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nmdias/FeedKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC14C9E42740948E00F3F30A /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC14C9E32740948E00F3F30A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		FC14C9E62740948E00F3F30A /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC14C9E32740948E00F3F30A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		FC14C9E927409A4300F3F30A /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC14C9E827409A4300F3F30A /* XCRemoteSwiftPackageReference "Swifter" */;
+			productName = Swifter;
+		};
+		FC14C9EC27409C5A00F3F30A /* FeedKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC14C9EB27409C5A00F3F30A /* XCRemoteSwiftPackageReference "FeedKit" */;
+			productName = FeedKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC14C9C82740936000F3F30A /* Project object */;
 }

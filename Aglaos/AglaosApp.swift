@@ -11,7 +11,9 @@ import SwiftUI
 struct AglaosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                SieveList()
+            }
         }
     }
 }
