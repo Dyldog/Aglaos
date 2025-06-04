@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
+import DylKit
 
 class SieveListViewModel: ObservableObject {
-    @Published var sieves: [Sieve] = [
-        .init(title: "Test Sieve", items: [
+    @UserDefaultable(key: "SIEVES") var sieves: [Sieve] = [
+        .init(id: .init(), title: "Test Sieve", items: [
             .source(RSSFeed(
                 title: "The Age",
                 url: URL(string: "https://www.theage.com.au/rss/feed.xml")!
@@ -20,6 +21,10 @@ class SieveListViewModel: ObservableObject {
     
     func addSieve(_ sieve: Sieve) {
         sieves.append(sieve)
+    }
+    
+    func remove(sieve: Sieve) {
+        sieves.removeAll(where: { $0.id == sieve.id })
     }
 }
 struct SieveList: View {
@@ -32,6 +37,13 @@ struct SieveList: View {
             ForEach(viewModel.sieves) { sieve in
                 NavigationLink(sieve.title) {
                     SieveView(sieve: sieve)
+                }.swipeActions {
+                    Button {
+                        viewModel.remove(sieve: sieve)
+                    } label: {
+                        Image(systemName: "trash")
+                    }
+                    .tint(.red)
                 }
             }
         }

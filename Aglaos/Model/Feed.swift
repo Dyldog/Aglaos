@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol Feed {
+protocol Feed: Codable {
     var id: String { get }
     var title: String { get }
     var url: URL { get }

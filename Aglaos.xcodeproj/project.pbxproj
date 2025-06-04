@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -34,6 +34,7 @@
 		FC14CA152740D82400F3F30A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14CA142740D82300F3F30A /* SearchView.swift */; };
 		FC14CA172740D85300F3F30A /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14CA162740D85300F3F30A /* SearchBar.swift */; };
 		FC14CA192740DB1800F3F30A /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14CA182740DB1700F3F30A /* Webview.swift */; };
+		FC384E7E2B32B6F200AF2908 /* DylKit in Frameworks */ = {isa = PBXBuildFile; productRef = FC384E7D2B32B6F200AF2908 /* DylKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC384E7E2B32B6F200AF2908 /* DylKit in Frameworks */,
 				FC14C9EA27409A4300F3F30A /* Swifter in Frameworks */,
 				FC14C9E72740948E00F3F30A /* FacebookLogin in Frameworks */,
 				FC14C9E52740948E00F3F30A /* FacebookCore in Frameworks */,
@@ -185,6 +187,7 @@
 				FC14C9E62740948E00F3F30A /* FacebookLogin */,
 				FC14C9E927409A4300F3F30A /* Swifter */,
 				FC14C9EC27409C5A00F3F30A /* FeedKit */,
+				FC384E7D2B32B6F200AF2908 /* DylKit */,
 			);
 			productName = Aglaos;
 			productReference = FC14C9D02740936000F3F30A /* Aglaos.app */;
@@ -218,6 +221,7 @@
 				FC14C9E32740948E00F3F30A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 				FC14C9E827409A4300F3F30A /* XCRemoteSwiftPackageReference "Swifter" */,
 				FC14C9EB27409C5A00F3F30A /* XCRemoteSwiftPackageReference "FeedKit" */,
+				FC384E7C2B32B6F200AF2908 /* XCLocalSwiftPackageReference "../DylKit" */,
 			);
 			productRefGroup = FC14C9D12740936000F3F30A /* Products */;
 			projectDirPath = "";
@@ -469,6 +473,13 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		FC384E7C2B32B6F200AF2908 /* XCLocalSwiftPackageReference "../DylKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../DylKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		FC14C9E32740948E00F3F30A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -516,6 +527,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FC14C9EB27409C5A00F3F30A /* XCRemoteSwiftPackageReference "FeedKit" */;
 			productName = FeedKit;
+		};
+		FC384E7D2B32B6F200AF2908 /* DylKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DylKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

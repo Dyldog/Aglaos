@@ -8,7 +8,7 @@
 import Foundation
 import FeedKit
 
-protocol Filter {
+protocol Filter: Codable {
     var title: String { get }
     func filter(_ post: Post) -> Bool
 }
